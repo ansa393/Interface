@@ -1,0 +1,52 @@
+body{
+    background-image: url(./gradiant.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+width: 400px;
+height: 400px;
+background-color: azure;
+margin-left: 300px;
+margin-top: 180px;
+border-radius: 20px;
+background-image: linear-gradient(to right, black , rgb(54, 54, 201));
+display: flex;
+justify-content: center;
+
+
+}
+
+h2{
+    margin-top: -10pxpx;
+    font-size: 24px;
+    color: white;
+}
+.google{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+margin-top: 60PX;
+background-color: white
+
+}
+.github{
+display: flex;
+align-items: center;
+width: 100%;
+border: none;
+font-size: 20px;
+margin-bottom: 15px ;
+justify-content: center;
+margin-top: 30px;
+}
+.last{
+   margin-left: 350px; 
+   margin-bottom: 50px;
+   color: white;
+   font-size: large;
+}
